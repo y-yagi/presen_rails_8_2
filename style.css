@@ -1,0 +1,23 @@
+.slidev-layout {
+  h1 {
+    font-size: 3em !important;
+  }
+
+  &:not(.cover) {
+    h2 {
+      font-size: 2em !important;
+      color: var(--slidev-theme-primary);
+
+      a {
+        border-style: none;
+      }
+    }
+  }
+
+  ul li {
+    font-size: 1.5em !important;
+  }
+  ul li ul li {
+    font-size: 1.0em !important;
+  }
+}
